@@ -1,0 +1,244 @@
+/* Start Navbar Style */
+
+nav ul li:nth-of-type(3) a {
+    color: var(--mainColor);
+}
+
+nav ul li:not(:nth-of-type(3)) a {
+    color: var(--secondaryColor);
+}
+
+nav ul li:not(:nth-of-type(3)) a {
+    transition: color .5s;
+}
+
+nav ul li:not(:nth-of-type(3)) a:hover {
+    color: var(--mainColor);
+}
+
+/* End Navbar Style */
+
+/* Start Banner Style */
+
+#banner {
+    background: rgba(0 0 0 / 30%) url('../images/page-heading-bg.jpg');
+    background-blend-mode: overlay;
+    padding: 115px 0 60px;
+}
+
+#banner span {
+    color: var(--secondaryColor);
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 25px;
+    display: inline-block;
+}
+
+#banner h2 {
+    margin-top: 30px;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/* End Banner Style */
+
+/* Start Featured Style */
+
+#featured {
+    padding: var(--mainPadding);
+    background-color: var(--mainBackgroundColor);
+}
+
+#featured .container {
+    align-items: flex-start;
+}
+
+#featured article:first-of-type {
+    width: 27%;
+}
+
+#featured article:nth-of-type(2) {
+    width: 40%;
+}
+
+#featured article:nth-of-type(2) p:first-of-type {
+    margin-bottom: 30px;
+}
+
+#featured article:nth-of-type(2) p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+
+#featured article:nth-of-type(2) button {
+    color: #fff;
+    padding: 8px 25px 8px 45px;
+    border-radius: 25px;
+    position: relative;
+    font-weight: 400;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+#featured article:nth-of-type(2) button i {
+    position: absolute;
+    background-color: #f35525;
+    width: 36px;
+    height: 100%;
+    border-radius: 25px;
+    top: 0px;
+    left: 0px;
+}
+
+#featured article:last-of-type {
+    width: 26%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    padding: 35px 30px;
+    background-color: #fff;
+}
+
+#featured article:last-of-type ul li {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#featured article:last-of-type ul li:not(:last-of-type) {
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #eee;
+}
+
+#featured article:last-of-type ul li h3 {
+    color: var(--secondaryColor);
+    width: 70%;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+#featured article:last-of-type ul li h3 span {
+    font-size: 15px;
+    color: #aaa;
+    font-weight: 400;
+    display: inline-block;
+}
+
+#featured article:last-of-type ul li img {
+    width: 20%;
+}
+
+/* End Featured Style */
+
+/* Start Best Deal Style */
+
+#best-deal {
+    padding: var(--mainPadding);
+}
+
+#best-deal header button {
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 15px 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#best-deal header button:not(:last-of-type) {
+    margin-right: 8px;
+}
+
+#best-deal header button:first-of-type {
+    background-color: var(--mainColor);
+}
+
+#best-deal section {
+    align-items: flex-start;
+}
+
+#best-deal section article:first-of-type {
+    width: 26%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    padding: 35px 30px;
+    background-color: #fff;
+}
+
+#best-deal section article:first-of-type ul li {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#best-deal section article:first-of-type ul li:not(:last-of-type) {
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #eee;
+}
+
+#best-deal section article:first-of-type ul li span {
+    color: #aaa;
+}
+
+#best-deal section article:first-of-type ul li h3 {
+    color: var(--secondaryColor);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#best-deal section article:nth-of-type(2) {
+    width: 40%;
+}
+
+#best-deal section article:last-of-type {
+    width: 27%;
+}
+
+#best-deal section article:last-of-type h4 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#best-deal section article:last-of-type p:first-of-type {
+    margin-bottom: 30px;
+}
+
+#best-deal section article:last-of-type p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+
+#best-deal section article:last-of-type button {
+    color: #fff;
+    padding: 8px 25px 8px 45px;
+    border-radius: 25px;
+    position: relative;
+    font-weight: 400;
+    font-size: 13px;
+    cursor: pointer;
+    transition: box-shadow .5s;
+}
+
+#best-deal section article:last-of-type button:hover {
+    box-shadow: 0px 0px 11px 10px #edeaea;
+}
+
+#best-deal section article:last-of-type button i {
+    position: absolute;
+    background-color: #f35525;
+    width: 36px;
+    height: 100%;
+    border-radius: 25px;
+    top: 0px;
+    left: 0px;
+}
+
+/* End Best Deal Style */

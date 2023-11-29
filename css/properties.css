@@ -1,0 +1,139 @@
+/* Start Navbar Style */
+
+nav ul li:nth-of-type(2) a {
+    color: var(--mainColor);
+}
+
+nav ul li:not(:nth-of-type(2)) a {
+    color: var(--secondaryColor);
+}
+
+nav ul li:not(:nth-of-type(2)) a {
+    transition: color .5s;
+}
+
+nav ul li:not(:nth-of-type(2)) a:hover {
+    color: var(--mainColor);
+}
+
+/* End Navbar Style */
+
+/* Start Banner Style */
+
+#banner {
+    background: rgba(0 0 0 / 30%) url('../images/page-heading-bg.jpg');
+    background-blend-mode: overlay;
+    padding: 115px 0 60px;
+}
+
+#banner span {
+    color: var(--secondaryColor);
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 25px;
+    display: inline-block;
+}
+
+#banner h2 {
+    margin-top: 30px;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/* End Banner Style */
+
+
+/* Start Properties Style */
+
+#properties .container div {
+    flex-wrap: wrap;
+}
+
+#properties article {
+    width: 32%;
+    background-color: #fafafa;
+    border-radius: 10px;
+    /* padding: 30px;  learn it */ 
+    padding: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#properties article img {
+    border-radius: 10px;
+}
+
+#properties article section {
+    margin-top: 25px;
+}
+
+#properties article section span:first-of-type {
+    background-color: #fbd9cf;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #1e1e1e;
+    padding: 5px 12px;
+    display: inline-block;
+} 
+
+#properties article section span:last-of-type {
+    font-size: 20px;
+    text-align: right;
+    width: 50%;
+    color: var(--mainColor);
+} 
+
+#properties article h3 {
+    font-size: 19px;
+    margin: 25px 0px;
+    text-align: left;
+    color: var(--secondaryColor);
+}
+
+#properties article ul {
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+#properties article ul li:not(:last-of-type) {
+    margin-right: 20px;
+}
+
+#properties article ul li {
+    display: inline-block;
+    font-size: 15px;
+    color: #4a4a4a;
+}
+
+#properties article ul li span {
+    font-weight: 600;
+    color: #1e1e1e;
+}
+
+#properties article button {
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 25px;
+    position: relative;
+    font-weight: 500;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color .5s;
+}
+
+#properties article button:hover {
+    background-color: var(--mainColor);
+    color: #fff;
+}
+
+#properties article button::first-letter {
+    text-transform: uppercase;
+}
+
+/* End Properties Style */
